@@ -1,6 +1,6 @@
 # plain_notification_token_example
 
-Demonstrates how to use the plain_notification_token plugin.
+Demonstrates how to use the plain_notification_token_for_us plugin.
 
 ## Getting Started
 

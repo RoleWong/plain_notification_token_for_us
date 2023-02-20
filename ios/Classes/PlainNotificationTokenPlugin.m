@@ -7,7 +7,7 @@
 }
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
   FlutterMethodChannel* channel = [FlutterMethodChannel
-      methodChannelWithName:@"plain_notification_token"
+      methodChannelWithName:@"plain_notification_token_for_us"
             binaryMessenger:[registrar messenger]];
   PlainNotificationTokenPlugin* instance = [[PlainNotificationTokenPlugin alloc] initWithChannel:channel];
   [registrar addApplicationDelegate:instance];

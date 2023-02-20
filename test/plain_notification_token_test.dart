@@ -1,10 +1,10 @@
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:plain_notification_token/plain_notification_token.dart';
+import 'package:plain_notification_token_for_us/plain_notification_token_for_us.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('plain_notification_token');
+  const MethodChannel channel = MethodChannel('plain_notification_token_for_us');
   WidgetsFlutterBinding.ensureInitialized();
 
   group("PlainNotificationToken", () {

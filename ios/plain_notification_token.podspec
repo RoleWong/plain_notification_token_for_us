@@ -2,7 +2,7 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'plain_notification_token'
+  s.name             = 'plain_notification_token_for_us'
   s.version          = '0.0.1'
   s.summary          = 'Get your push notification token via platform way (APNs for iOS &#x2F; Firebase Clound Messaging for Android)'
   s.description      = <<-DESC

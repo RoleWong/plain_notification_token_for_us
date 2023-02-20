@@ -1,22 +1,7 @@
-## 0.0.4
 
-* Support Flutter 2.10
-  * Dependencies update
+# 我们对这个包进行了如下修改，仅为了给我们自己业务使用。
 
-## 0.0.3
+- 移除 `android` 目录，因其有我们项目用不上的 Firebase 程序，会导致我们项目引入 Firebase。
 
-* V2 Android Embedding support
+# 外部开发者请使用原作者的包，[flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications)，我们也向原作者表示感谢。
 
-## 0.0.2
-
-* Bug fix
-    * Now `PlainNotificationToken.onIosSettingsRegistered` pushes the value when the user denied Push Notification at iOS.
-
-## 0.0.1-nullsafety.0
-
-* Support sound null-safety.
-    * Now `PlainNotificationToken.getToken` returns `Future<String?>`. 
-
-## 0.0.1
-
-* First release.

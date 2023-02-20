@@ -1,4 +1,4 @@
-# plain_notification_token
+# plain_notification_token_for_us
 
 Get your push notification token via platform way (APNs for iOS &#x2F; Firebase Clound Messaging for Android)
 
@@ -29,7 +29,7 @@ To integrate your plugin into the iOS part of your app, follow these steps:
 From your Dart code, you need to import the plugin and instantiate it:
 
 ```dart
-import 'package:plain_notification_token/plain_notification_token.dart';
+import 'package:plain_notification_token_for_us/plain_notification_token_for_us.dart';
 
 final plainNotificationToken = PlainNotificationToken();
 ```

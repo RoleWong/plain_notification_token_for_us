@@ -21,7 +21,7 @@ class PlainNotificationToken {
   factory PlainNotificationToken() =>
       _instance ??
       (_instance = PlainNotificationToken._(
-          const MethodChannel('plain_notification_token'),
+          const MethodChannel('plain_notification_token_for_us'),
           const LocalPlatform()));
 
   final StreamController<String> _tokenStreamController =

@@ -1,5 +1,5 @@
 name: plain_notification_token_example
-description: Demonstrates how to use the plain_notification_token plugin.
+description: Demonstrates how to use the plain_notification_token_for_us plugin.
 publish_to: 'none'
 version: 1.0.0
 
@@ -18,7 +18,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  plain_notification_token:
+  plain_notification_token_for_us:
     path: ../
 
 # For information on the generic Dart part of this file, see the
